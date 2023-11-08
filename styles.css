@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    max-height: 50px;
+    margin-left: 20px;
+}
+
+.banners img {
+    max-height: 30px;
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    
+    .logo img {
+        max-width: 200px; /* Ajusta el tamaño del logo según sea necesario */
+    }
+    
+    .countries {
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    .country {
+        margin-right: 20px;
+    }
+    
+    .country img {
+        max-width: 50px; /* Ajusta el tamaño de las banderas según sea necesario */
+    }
+    
+    /* Estilos adicionales según tus necesidades */
+    
